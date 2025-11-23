@@ -1,11 +1,11 @@
 # PDF to Markdown Converter
 
-AWS Bedrock Claude 기반 PDF → Markdown 변환기
+Amazon Bedrock Claude 기반 PDF → Markdown 변환기
 
 ## 기능
 
 - **PDF를 이미지로 변환**: 각 페이지를 고해상도 이미지로 변환 (450 DPI)
-- **OCR 변환**: AWS Bedrock Claude Sonnet 4.5를 사용해 이미지에서 텍스트 추출
+- **OCR 변환**: Amazon Bedrock Claude Sonnet 4.5를 사용해 이미지에서 텍스트 추출
 - **이미지 추출**: PDF 내 임베디드 이미지 자동 추출 및 저장
 - **구조 보존**: 테이블, 목록, 제목 등 문서 구조를 Markdown으로 정확히 변환
 - **스트리밍 처리**: 페이지별 처리로 메모리 효율적 대용량 PDF 처리
