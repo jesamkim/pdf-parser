@@ -190,7 +190,7 @@ aws configure --profile your-profile
 ```
 AccessDeniedException: Could not access model
 ```
-**해결**: AWS Console에서 Bedrock 모델 액세스 요청
+**해결**: AWS Console에서 Bedrock 모델 액세스 권한 확인
 
 ### 4. 메모리 부족
 큰 PDF 처리 시 메모리 부족:
